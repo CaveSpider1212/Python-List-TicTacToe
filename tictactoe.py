@@ -113,7 +113,7 @@ turn = 0
 while gameEnd != True: # Loop breaks when the game is over, otherwise repeats over and over
     player1Finished = False
     while player1Finished != True: # Loop breaks when a "True" value is received from replaceRow()
-        player1 = input("Player 1 (x), select your box:")
+        player1 = input("Player 1 (X), select your box:")
         player1Finished = replaceRow("X", player1)
     turn += 1
     
