@@ -68,6 +68,7 @@ def replaceRow(symbol, box): # Replaces a blank space with an X or an O
         return True
 
 def checkWin(): # Checks for all possible scenarios for a win
+    # Done this way so that the code will look a little nicer
     if row1[0] == "X" and row1[1] == "X" and row1[2] == "X":
         return True
     if row2[0] == "X" and row2[1] == "X" and row2[2] == "X":
